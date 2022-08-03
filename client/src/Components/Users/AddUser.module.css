@@ -1,0 +1,44 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-input input {
+  margin-top: 4px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+  font-size: medium;
+  outline: none;
+}
+.btn-cancel {
+  cursor: pointer;
+  background-color: red;
+  width: 250px;
+  padding: 14px 0px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn-submit {
+  cursor: pointer;
+  background-color: rgb(16, 214, 16);
+  width: 250px;
+  padding: 14px 0px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
